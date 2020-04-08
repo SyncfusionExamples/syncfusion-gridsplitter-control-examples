@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridSplitter-features", "GridSplitter-features.csproj", "{71650B80-8AE6-4A95-9D0E-44C30C0ECAD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71650B80-8AE6-4A95-9D0E-44C30C0ECAD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71650B80-8AE6-4A95-9D0E-44C30C0ECAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71650B80-8AE6-4A95-9D0E-44C30C0ECAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71650B80-8AE6-4A95-9D0E-44C30C0ECAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13220224-03BF-4435-A153-9ECD4918E8B8}
+	EndGlobalSection
+EndGlobal
