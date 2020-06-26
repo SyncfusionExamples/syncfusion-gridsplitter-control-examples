@@ -37,7 +37,6 @@
                 Grid.Column="2" Text="Panel 3">
             </TextBlock>
 
-
             <!--Horizontal Splitter-->
             <syncfusion:SfGridSplitter
                 Grid.Row="1"
@@ -51,16 +50,16 @@
 
                 <!--Up button template-->
                 <syncfusion:SfGridSplitter.UpButtonTemplate>
-                    <ControlTemplate>
-                        <Ellipse Width="20" Height="20" Fill="Yellow"/>
-                    </ControlTemplate>
+                    <DataTemplate>
+                        <Ellipse Width="20" Height="20" Fill="Blue"/>
+                    </DataTemplate>
                 </syncfusion:SfGridSplitter.UpButtonTemplate>
 
                 <!--Down button template-->
                 <syncfusion:SfGridSplitter.DownButtonTemplate>
-                    <ControlTemplate>
+                    <DataTemplate>
                         <Ellipse Width="20" Height="20" Fill="Orange"/>
-                    </ControlTemplate>
+                    </DataTemplate>
                 </syncfusion:SfGridSplitter.DownButtonTemplate>
             </syncfusion:SfGridSplitter>
 
@@ -73,8 +72,21 @@
                 EnableCollapseButton="True"
                 ResizeBehavior="PreviousAndNext"    
                 ShowsPreview="True"
-                 Background="DarkGoldenrod">          
+                 Background="DarkGoldenrod">
+                
+                <!--Left button template-->
+                <syncfusion:SfGridSplitter.LeftButtonTemplate>
+                    <DataTemplate>
+                        <Ellipse Width="20" Height="20" Fill="Red"/>
+                    </DataTemplate>
+                </syncfusion:SfGridSplitter.LeftButtonTemplate>
 
+                <!--Right button template-->
+                <syncfusion:SfGridSplitter.RightButtonTemplate>
+                    <DataTemplate>
+                        <Ellipse Width="20" Height="20" Fill="Green"/>
+                    </DataTemplate>
+                </syncfusion:SfGridSplitter.RightButtonTemplate>
                 <!--Style for vertical Preview Splitter-->
                 <syncfusion:SfGridSplitter.PreviewStyle>
                     <Style TargetType="Control">
