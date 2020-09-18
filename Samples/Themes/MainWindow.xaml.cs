@@ -24,7 +24,6 @@ namespace Appearance
         public MainWindow()
         {
             InitializeComponent();
-            SfSkinManager.SetVisualStyle(this, VisualStyles.Blend);
         }
     }
 }
